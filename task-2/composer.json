@@ -1,0 +1,19 @@
+{
+    "name": "davidecaruso/task-2",
+    "description": "Write a function that provides change directory (cd) function for an abstract file system.",
+    "type": "project",
+    "require-dev": {
+        "codeception/codeception": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supermercato24\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davide Caruso",
+            "email": "davide.caruso93@gmail.com"
+        }
+    ]
+}

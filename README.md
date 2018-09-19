@@ -28,14 +28,19 @@ Notes:
 - the function will not be passed any invalid paths.
 - do not use built-in path-related functions.
 
-### Test
-TODO 
-
 ### Example:
 $path = new Path('/a/b/c/d');
 $path->cd('../x');
 echo $path->currentPath;
 should display '/a/b/c/x'.
+
+### Test
+```bash
+cd task-2
+composer install
+vendor/bin/codecept run unit # to see unit-tests' results
+php scripts/change_directory.php # to run example script
+```
 
 ## TASK 3
 ### Language

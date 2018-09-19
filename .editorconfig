@@ -14,8 +14,11 @@ trim_trailing_whitespace = false
 [*.yml]
 indent_size = 2
 
-[{composer.lock,.babelrc,.stylelintrc,.eslintrc,jest.config,*.bowerrc,*.json,*.js.map}]
+[{.babelrc,.stylelintrc,.eslintrc,jest.config,*.bowerrc,*.json,*.js.map}]
 indent_size=2
+
+[{composer.json,composer.lock}]
+indent_size = 4
 
 [*.csv]
 indent_style=tab
