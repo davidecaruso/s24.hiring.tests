@@ -87,7 +87,11 @@ sorted = [
 ```
 
 ### Test
-TODO
+```bash
+pip install haversine
+cd task-3
+python2 haversine_coverage.test.py
+```
 
 ## Author
 [Davide Caruso](https://about.me/davidecaruso)
