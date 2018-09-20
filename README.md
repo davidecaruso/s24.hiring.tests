@@ -37,7 +37,7 @@ should display '/a/b/c/x'.
 ### Test
 ```bash
 cd task-2
-composer install
+composer update -o
 vendor/bin/codecept run unit # to see unit-tests' results
 php scripts/change_directory.php # to run example script
 ```
@@ -80,9 +80,10 @@ One shopper covers a zone if the distance among the coordinates is less than 10 
 Resulted array should be sorted (desc) as the following one:
 ```javascript
 sorted = [
-  {'shopper_id': 'S3', 'coverage': 72},
-  {'shopper_id': 'S1', 'coverage': 43},
-  {'shopper_id': 'S6', 'coverage': 12},
+    {'shopper_id': 'S3', 'coverage': 72},
+    {'shopper_id': 'S1', 'coverage': 43},
+    {'shopper_id': 'S6', 'coverage': 12},
+    // ... 
 ];
 ```
 
