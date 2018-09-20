@@ -29,10 +29,12 @@ Notes:
 - do not use built-in path-related functions.
 
 ### Example:
+```php
+<?php
 $path = new Path('/a/b/c/d');
 $path->cd('../x');
-echo $path->currentPath;
-should display '/a/b/c/x'.
+echo $path->currentPath; // should display '/a/b/c/x'.
+```
 
 ### Test
 ```bash
